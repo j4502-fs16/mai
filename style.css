@@ -1,0 +1,138 @@
+p {
+  color: #2e2e4e;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+h1{
+  font-family: Georgia, "Times New Roman", serif;
+  color: #42448a;
+}
+
+#h1top{
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+h2{
+  font-family: Georgia, "Times New Roman", serif;
+  color: #42448a;
+}
+
+h3{
+  font-family: Georgia, "Times New Roman", serif;
+  color: #42448a;
+}
+
+body{
+  background-color:#fffdf4;
+}
+
+#container{
+  width: 95%;
+  background-color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nav1 {
+  padding: 0;
+}
+
+#nav1 li {
+  list-style-type: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+}
+
+#nav1 a:link, a:visited {
+  display: block;
+  color:#ffffff;
+  background-color: #42448a;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav1 a:hover, a:active {
+background-color: #16198d;
+}
+
+#nav2 {
+  list-style-type: none;
+  text-decoration:none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+#nav2 a:link{
+    color:#131347;
+}
+
+#nav2 a:visited{
+    color:#c52026;
+}
+
+#nav2 a:hover, a:active {
+    color:#307a2c;
+}
+
+#nav3 {
+  list-style-type: none;
+  text-decoration:none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+#nav3 a:link{
+    color:#blue;
+}
+
+#nav3 a:visited{
+    color:#c52026;
+}
+
+#nav3 a:hover, a:active {
+    color:#307a2c;
+}
+
+#nav4 {
+  list-style-type: none;
+  text-decoration:none !important;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+#nav4 a:link{
+    color:#blue;
+}
+
+#nav4 a:visited{
+    color:#c52026;
+}
+
+#nav4 a:hover, a:active {
+    color:#307a2c;
+}
+
+.caption{
+  color:black;
+  font-family:Georgia, "Times New Roman", serif;
+  font-size:0.8em;
+  font-style:italic;
+  margin-top:0;
+  text-align:center;
+}
+
+#footer {
+  color: black;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 0.8em;
+  border-top: 1px solid black;
+}
