@@ -136,3 +136,22 @@ background-color: #16198d;
   font-size: 0.8em;
   border-top: 1px solid black;
 }
+
+#more {
+  list-style-type: none;
+  text-decoration:none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+
+#more a:link{
+    color:blue;
+}
+
+#more a:visited{
+    color:#c52026;
+}
+
+#more a:hover, a:active {
+    color:#307a2c;
+}
