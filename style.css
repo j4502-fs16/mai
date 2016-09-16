@@ -91,7 +91,7 @@ background-color: #16198d;
 }
 
 #nav3 a:link{
-    color:#blue;
+    color:blue;
 }
 
 #nav3 a:visited{
@@ -104,13 +104,13 @@ background-color: #16198d;
 
 #nav4 {
   list-style-type: none;
-  text-decoration:none !important;
+  text-decoration:none;
   font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
 }
 
 #nav4 a:link{
-    color:#blue;
+    color:blue;
 }
 
 #nav4 a:visited{
