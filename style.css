@@ -1,34 +1,39 @@
 p {
-  color: #2e2e4e;
-  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-family: 'Cardo', serif;
   font-size: 14px;
 }
 
 h1{
-  font-family: Georgia, "Times New Roman", serif;
-  color: #42448a;
+  font-family: 'Montserrat', sans-serif;
+  color: #04193F;
 }
 
 #h1top{
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Pacifico', cursive;
   font-size: 50px;
   font-style: italic;
   font-weight: bolder;
 }
 
 h2{
-  font-family: Georgia, "Times New Roman", serif;
-  color: #42448a;
+  font-family: 'Montserrat', sans-serif;
+  color: #04193F;
 }
 
 h3{
-  font-family: Georgia, "Times New Roman", serif;
-  color: #42448a;
+  font-family: 'Montserrat', sans-serif;
+  color: #04193F;
 }
 
 body{
-  background-color:#fffdf4;
+  background-color:#dedede;
 }
+
+img {
+  border-style: none;
+}
+
 
 #container{
   width: 95%;
@@ -47,12 +52,13 @@ body{
   margin: 0;
   padding: 0;
   width: 25%;
+  font-size:1.5em;
 }
 
 #nav1 a:link, a:visited {
   display: block;
   color:#ffffff;
-  background-color: #42448a;
+  background-color: #04193F;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -61,7 +67,7 @@ body{
 }
 
 #nav1 a:hover, a:active {
-background-color: #16198d;
+background-color: #313A75;
 }
 
 #nav2 {
