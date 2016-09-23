@@ -1,11 +1,11 @@
 p {
   color: #000000;
-  font-family: 'Cardo', serif;
+  font-family: 'Cardo', "Times New Roman", serif;
   font-size: 14px;
 }
 
 h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   color: #04193F;
 }
 
@@ -17,12 +17,12 @@ h1{
 }
 
 h2{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   color: #04193F;
 }
 
 h3{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   color: #04193F;
 }
 
@@ -73,12 +73,12 @@ background-color: #313A75;
 #nav2 {
   list-style-type: none;
   text-decoration:none;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-style: italic;
 }
 
 #nav2 a:link{
-    color:#131347;
+    color:#313A75;
 }
 
 #nav2 a:visited{
@@ -86,18 +86,18 @@ background-color: #313A75;
 }
 
 #nav2 a:hover, a:active {
-    color:#307a2c;
+    color:#5E60AB;
 }
 
 #nav3 {
   list-style-type: none;
   text-decoration:none;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-style: italic;
 }
 
 #nav3 a:link{
-    color:blue;
+    color:313A75;
 }
 
 #nav3 a:visited{
@@ -105,18 +105,18 @@ background-color: #313A75;
 }
 
 #nav3 a:hover, a:active {
-    color:#307a2c;
+    color:#5E60AB;
 }
 
 #nav4 {
   list-style-type: none;
   text-decoration:none;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-style: italic;
 }
 
 #nav4 a:link{
-    color:blue;
+    color:313A75;
 }
 
 #nav4 a:visited{
@@ -124,12 +124,12 @@ background-color: #313A75;
 }
 
 #nav4 a:hover, a:active {
-    color:#307a2c;
+    color:#5E60AB;
 }
 
 .caption{
   color:black;
-  font-family:Georgia, "Times New Roman", serif;
+  font-family:'Cardo', "Times New Roman", serif;
   font-size:0.8em;
   font-style:italic;
   margin-top:0;
@@ -138,20 +138,22 @@ background-color: #313A75;
 
 #footer {
   color: black;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Cardo', "Times New Roman", serif;
   font-size: 0.8em;
   border-top: 1px solid black;
+  background-color: 313A75;
+  display: block;
 }
 
 #more {
   list-style-type: none;
   text-decoration:none;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
   font-style: italic;
 }
 
 #more a:link{
-    color:blue;
+    color:313A75;
 }
 
 #more a:visited{
@@ -159,5 +161,5 @@ background-color: #313A75;
 }
 
 #more a:hover, a:active {
-    color:#307a2c;
+    color:#5E60AB;
 }
