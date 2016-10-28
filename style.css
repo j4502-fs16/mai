@@ -125,6 +125,10 @@ img {
       height: 50px;
   }
 
+  .header, .main, .aside, .footer{
+    flex:1 100%;
+    padding: 10px;
+  }
 
 /*.navigation a{
   list-style-type: none;
