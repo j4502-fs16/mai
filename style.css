@@ -2,6 +2,7 @@ p{
   color: #000000;
   font-family: 'Cardo', "Times New Roman", serif;
   font-size: 14px;
+  max-width: 3000px;
 }
 
 
@@ -244,22 +245,23 @@ flex-flow: row wrap;
 .aside-1{
   background: #f1431d;
   color: white;
-  height: 220px;
+  height: 240px;
 }
   .aside-2{
     background: #208a43;
       color: white;
-      height: 220px;
+      height: 240px;
   }
   .aside-3{
     background: #f1ad1d;
       color: white;
-      height: 220px;
+      height: 240px;
   }
   .aside-4{
     background: #00aced;
-      color: white;
-      height: 220px;
+    padding-top: 10px;
+    color: white;
+    height: 240px;
   }
 }
 
