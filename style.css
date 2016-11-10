@@ -47,12 +47,43 @@ img {
   background-color: white;
   margin: 0 auto;
 }
-.head{
-  width:100%;
-  margin:0;
-  padding:0;
+
+header {
+  display: flex;
+  flex-flow: row;
+  background-color: #04193F;
+  margin: 0;
+  padding: 0 10px;
 }
-.navigation{
+
+nav ul li {
+  display: block;
+  border-top: 1px white solid;
+  color: white;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+nav ul{
+  display: none;
+}
+
+nav a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 18px 30px;
+}
+
+.menu-trigger {
+  order: 1;
+  font-size: 2em;
+}
+header h1{
+  order: 2;
+  color: white;
+}
+
+/*.navigation{
     list-style: none;
     margin:0;
     background-color: #04193F;
@@ -83,7 +114,7 @@ img {
 
   .navigation a:hover, a:active {
   background-color: #313A75;
-  }
+  }*/
   .wrapper{
   display: flex;
   flex-flow: row wrap;
@@ -176,42 +207,47 @@ img {
 }
 
 @media all and (min-width:600px){
+  .menu-trigger {
+    display: none;
+  }
+  nav ul li {
+    border: none;
+  }
   .hide{
     visibility: hidden;
     display: none;
   }
-  .head{
-    display: flex;
+  nav ul{
+    display:flex;
     flex-flow: row;
   }
-  .navigation{
+  header{
+    order: 1;
+  }
+  nav{
+    order: 2;
+  }
+
+  nav{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-around;
     text-align: center;
-    padding: 5px;
   }
-  .navigation li {
-    border: none;
-    margin: 5px;
-    padding: 5px;
-  }
-  .navigation a:hover{
-    background: #313A75;
-    padding: 5px 20px;
+  nav a{
+    flex: 1 100%;
   }
 
   header{
+    order: 1;
+    display: flex;
+    flex-flow: row;
+    justify-content:space-around;
+  }
+  nav{
     order: 2;
   }
-  .navigation{
-    order: 1;
-  }
-  header{
-    flex: 1 auto;
-    justify-content: flex-start;
-  }
-  h1{
-    text-align: left;
-    padding: 0 10px;
-}
+
 img{
     width: 100%;
     margin-right: 10px;
@@ -265,32 +301,37 @@ flex-flow: row wrap;
 }
 
 @media (min-width: 800px) {
+  .menu-trigger {
+    display: none;
+  }
+  nav ul li {
+    border: none;
+  }
   .hide{
     visibility: hidden;
     display: none;
   }
+  nav ul{
+    display:flex;
+    flex-flow: row;
+  }
   header{
     order: 1;
   }
-  .navigation{
+  nav{
     order: 2;
   }
-  .head{
-    display: flex;
-    flex-flow: column-reverse;
-  }
-  .navigation{
+
+  nav{
     display: flex;
     flex-flow: row;
     justify-content:space-around;
     text-align: center;
   }
-  .navigation a{
+  nav a{
     flex: 1 100%;
   }
-  .navigation a:hover{
-    background-color: #313A75;
-  }
+
   .aside{
     flex: 1 auto;
   }
