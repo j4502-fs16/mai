@@ -242,7 +242,7 @@ header h1{
     order: 1;
     display: flex;
     flex-flow: row;
-    justify-content:space-around;
+    justify-content:center;
   }
   nav{
     order: 2;
@@ -325,7 +325,7 @@ flex-flow: row wrap;
   nav{
     display: flex;
     flex-flow: row;
-    justify-content:space-around;
+    justify-content:center;
     text-align: center;
   }
   nav a{
